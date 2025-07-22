@@ -1,1 +1,958 @@
-xxxxxxxxx
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bestcare Facilities Management Services - Leading facility management company in Kenya providing comprehensive solutions for residential, commercial and industrial properties.">
+    <meta name="keywords" content="facilities management, Kenya, Nairobi, cleaning services, security, HVAC, maintenance, landscaping, pest control">
+    <title>Bestcare Facilities Management Services - Leading FM Company in Kenya</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #1a237e;
+            --accent-orange: #ff6f00;
+            --text-white: #ffffff;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        
+        .navbar-brand {
+            font-weight: bold;
+            color: var(--text-white) !important;
+        }
+        
+        .navbar-nav .nav-link {
+            color: var(--text-white) !important;
+            font-weight: 500;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: var(--accent-orange) !important;
+        }
+        
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #3949ab 100%);
+            color: var(--text-white);
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .section-title {
+            color: var(--primary-blue);
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        
+        .service-card {
+            border: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+        
+        .service-card .card-header {
+            background: linear-gradient(45deg, var(--primary-blue), #3949ab);
+            color: var(--text-white);
+            font-weight: bold;
+            border: none;
+        }
+        
+        .price-badge {
+            background: var(--accent-orange);
+            color: var(--text-white);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 10px 0;
+        }
+        
+        .btn-primary {
+            background: var(--primary-blue);
+            border: var(--primary-blue);
+        }
+        
+        .btn-primary:hover {
+            background: var(--accent-orange);
+            border: var(--accent-orange);
+        }
+        
+        .btn-outline-primary {
+            color: var(--primary-blue);
+            border-color: var(--primary-blue);
+        }
+        
+        .btn-outline-primary:hover {
+            background: var(--accent-orange);
+            border-color: var(--accent-orange);
+        }
+        
+        .footer {
+            background: var(--primary-blue);
+            color: var(--text-white);
+            padding: 40px 0 20px;
+        }
+        
+        .footer a {
+            color: var(--text-white);
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            color: var(--accent-orange);
+        }
+        
+        .table-responsive {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        
+        .table thead {
+            background: var(--primary-blue);
+            color: var(--text-white);
+        }
+        
+        .quote-box {
+            background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+            border-left: 5px solid var(--accent-orange);
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 10px 10px 0;
+            font-style: italic;
+        }
+        
+        .contact-info {
+            background: var(--primary-blue);
+            color: var(--text-white);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .coverage-map {
+            background: #f8f9fa;
+            padding: 40px 0;
+        }
+        
+        .accordion-button:not(.collapsed) {
+            background-color: var(--primary-blue);
+            color: var(--text-white);
+        }
+        
+        .accordion-button:focus {
+            box-shadow: 0 0 0 0.25rem rgba(26, 35, 126, 0.25);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: var(--primary-blue);">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-building me-2"></i>Bestcare FM
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#coverage">Coverage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1 class="display-4 mb-4">Leading Facilities Management Services in Kenya</h1>
+            <p class="lead mb-5">Bestcare Facilities Management Services provides comprehensive solutions for residential, commercial, and industrial properties across all 47 counties in Kenya.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="row text-center">
+                        <div class="col-md-4 mb-3">
+                            <i class="fas fa-shield-alt fa-3x mb-3" style="color: var(--accent-orange);"></i>
+                            <h5>Trusted Security</h5>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <i class="fas fa-tools fa-3x mb-3" style="color: var(--accent-orange);"></i>
+                            <h5>Expert Maintenance</h5>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <i class="fas fa-leaf fa-3x mb-3" style="color: var(--accent-orange);"></i>
+                            <h5>Eco-Friendly Solutions</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HVAC & Electrical Pricing -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hvacPricing">
+                            <i class="fas fa-tools me-2"></i>HVAC & Electrical Services Pricing
+                        </button>
+                    </h2>
+                    <div id="hvacPricing" class="accordion-collapse collapse" data-bs-parent="#pricingAccordion">
+                        <div class="accordion-body">
+                            <h5>HVAC Systems Management</h5>
+                            <div class="table-responsive mb-4">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>HVAC Service</th>
+                                            <th>System Capacity</th>
+                                            <th>Monthly Cost (KES)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Preventive Maintenance</td><td>Small systems (< 5 tons)</td><td>8,000 - 15,000</td></tr>
+                                        <tr><td>Preventive Maintenance</td><td>Medium systems (5-20 tons)</td><td>20,000 - 40,000</td></tr>
+                                        <tr><td>Preventive Maintenance</td><td>Large systems (> 20 tons)</td><td>50,000 - 100,000</td></tr>
+                                        <tr><td>Emergency Repairs</td><td>Per incident</td><td>5,000 - 25,000</td></tr>
+                                        <tr><td>System Upgrades</td><td>Based on scope</td><td>100,000 - 500,000</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <h5>Electrical Systems Maintenance</h5>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Electrical Service</th>
+                                            <th>Facility Type</th>
+                                            <th>Monthly Cost (KES)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Routine Inspections</td><td>Residential</td><td>5,000 - 12,000</td></tr>
+                                        <tr><td>Routine Inspections</td><td>Commercial</td><td>15,000 - 35,000</td></tr>
+                                        <tr><td>Routine Inspections</td><td>Industrial</td><td>40,000 - 80,000</td></tr>
+                                        <tr><td>Generator Maintenance</td><td>Backup systems</td><td>10,000 - 30,000</td></tr>
+                                        <tr><td>Lighting Management</td><td>LED retrofits</td><td>20,000 - 100,000</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Services Pricing -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#additionalPricing">
+                            <i class="fas fa-plus-circle me-2"></i>Additional Services Pricing
+                        </button>
+                    </h2>
+                    <div id="additionalPricing" class="accordion-collapse collapse" data-bs-parent="#pricingAccordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h5>Landscaping Services</h5>
+                                    <div class="table-responsive mb-4">
+                                        <table class="table table-striped table-sm">
+                                            <thead>
+                                                <tr>
+                                                    <th>Service</th>
+                                                    <th>Size</th>
+                                                    <th>Monthly Cost (KES)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr><td>Basic Lawn Care</td><td>Small</td><td>8,000 - 15,000</td></tr>
+                                                <tr><td>Basic Lawn Care</td><td>Medium</td><td>20,000 - 40,000</td></tr>
+                                                <tr><td>Basic Lawn Care</td><td>Large</td><td>50,000 - 120,000</td></tr>
+                                                <tr><td>Garden Design</td><td>Complete</td><td>100,000 - 500,000</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                    <h5>Pest Control</h5>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-sm">
+                                            <thead>
+                                                <tr>
+                                                    <th>Service</th>
+                                                    <th>Type</th>
+                                                    <th>Monthly Cost (KES)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr><td>General Pest Control</td><td>Residential</td><td>3,000 - 8,000</td></tr>
+                                                <tr><td>General Pest Control</td><td>Commercial</td><td>8,000 - 20,000</td></tr>
+                                                <tr><td>Termite Treatment</td><td>Preventive</td><td>15,000 - 50,000</td></tr>
+                                                <tr><td>Fumigation</td><td>One-time</td><td>10,000 - 100,000</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <h5>Waste Management</h5>
+                                    <div class="table-responsive mb-4">
+                                        <table class="table table-striped table-sm">
+                                            <thead>
+                                                <tr>
+                                                    <th>Service</th>
+                                                    <th>Facility Type</th>
+                                                    <th>Monthly Cost (KES)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr><td>Regular Collection</td><td>Residential</td><td>8,000 - 20,000</td></tr>
+                                                <tr><td>Regular Collection</td><td>Office</td><td>15,000 - 40,000</td></tr>
+                                                <tr><td>Regular Collection</td><td>Industrial</td><td>30,000 - 100,000</td></tr>
+                                                <tr><td>Recycling Programs</td><td>Comprehensive</td><td>5,000 - 25,000</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                    <h5>Fire Safety & Emergency</h5>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-sm">
+                                            <thead>
+                                                <tr>
+                                                    <th>Service</th>
+                                                    <th>System Type</th>
+                                                    <th>Monthly Cost (KES)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr><td>Fire Extinguisher</td><td>Basic</td><td>2,000 - 8,000</td></tr>
+                                                <tr><td>Sprinkler System</td><td>Automated</td><td>15,000 - 35,000</td></tr>
+                                                <tr><td>Alarm Monitoring</td><td>24/7</td><td>10,000 - 25,000</td></tr>
+                                                <tr><td>Emergency Lighting</td><td>Testing</td><td>5,000 - 15,000</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section id="coverage" class="coverage-map">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Nationwide Coverage</h2>
+            
+            <div class="quote-box">
+                <p class="mb-0">"Local presence combined with centralized standards creates the optimal balance between responsive service delivery and consistent quality assurance."</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-header" style="background: var(--primary-blue); color: var(--text-white);">
+                            <h5 class="mb-0"><i class="fas fa-map-marked-alt me-2"></i>Service Centers & Coverage Areas</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h6 class="text-primary">Major Service Centers</h6>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fas fa-map-marker-alt text-warning me-2"></i>Westlands, Nairobi (Regional Hub)</li>
+                                        <li><i class="fas fa-map-marker-alt text-warning me-2"></i>Nairobi CBD (Primary Center)</li>
+                                        <li><i class="fas fa-map-marker-alt text-success me-2"></i>Nakuru</li>
+                                        <li><i class="fas fa-map-marker-alt text-success me-2"></i>Eldoret</li>
+                                        <li><i class="fas fa-map-marker-alt text-success me-2"></i>Kisumu</li>
+                                        <li><i class="fas fa-map-marker-alt text-success me-2"></i>Mombasa</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6 class="text-primary">County Coverage</h6>
+                                    <p>Bestcare Facilities Management Services maintains local presence in all <strong>47 county headquarters</strong> across Kenya, ensuring:</p>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fas fa-check text-success me-2"></i>Rapid response times</li>
+                                        <li><i class="fas fa-check text-success me-2"></i>Local expertise</li>
+                                        <li><i class="fas fa-check text-success me-2"></i>Consistent service quality</li>
+                                        <li><i class="fas fa-check text-success me-2"></i>Regional compliance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <h5><i class="fas fa-headset me-2"></i>24/7 Support</h5>
+                        <p>Our dedicated support team is available round the clock to address your facility management needs.</p>
+                        <div class="d-grid gap-2">
+                            <a href="tel:0722566999" class="btn btn-outline-light">
+                                <i class="fas fa-phone me-2"></i>Call: 0722566999
+                            </a>
+                            <a href="mailto:info@bestcareservices.co.ke" class="btn btn-outline-light">
+                                <i class="fas fa-envelope me-2"></i>Email Support
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology & Innovation Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Technology & Smart Solutions</h2>
+            
+            <div class="quote-box">
+                <p class="mb-0">"Regular fire safety system maintenance reduces insurance premiums by up to 15% while ensuring occupant safety and regulatory compliance."</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-microchip fa-3x mb-3" style="color: var(--accent-orange);"></i>
+                            <h5>IoT Integration</h5>
+                            <p>Smart sensors and predictive maintenance algorithms optimize facility operations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-chart-line fa-3x mb-3" style="color: var(--accent-orange);"></i>
+                            <h5>Energy Management</h5>
+                            <p>Smart monitoring systems reduce energy consumption and operational costs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-robot fa-3x mb-3" style="color: var(--accent-orange);"></i>
+                            <h5>Building Automation</h5>
+                            <p>Automated systems improve comfort while optimizing resource utilization.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-mobile-alt fa-3x mb-3" style="color: var(--accent-orange);"></i>
+                            <h5>Mobile Monitoring</h5>
+                            <p>Real-time facility monitoring and management through mobile applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Technology Service</th>
+                                    <th>Implementation Level</th>
+                                    <th>Setup Cost Range (KES)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Building Automation</td><td>Basic systems</td><td>200,000 - 500,000</td></tr>
+                                <tr><td>Building Automation</td><td>Advanced systems</td><td>600,000 - 2,000,000</td></tr>
+                                <tr><td>Energy Management</td><td>Smart monitoring</td><td>100,000 - 400,000</td></tr>
+                                <tr><td>Predictive Maintenance</td><td>IoT integration</td><td>150,000 - 600,000</td></tr>
+                                <tr><td>Smart Lighting</td><td>LED with controls</td><td>80,000 - 300,000</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality & Compliance Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Quality Assurance & Compliance</h2>
+            
+            <div class="quote-box">
+                <p class="mb-0">"Effective security management combines human expertise with technological solutions to create comprehensive protection strategies that adapt to evolving threat landscapes."</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-header" style="background: var(--primary-blue); color: var(--text-white);">
+                            <h5 class="mb-0"><i class="fas fa-certificate me-2"></i>Certifications</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>ISO Quality Management</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Kenya Bureau of Standards</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Environmental Compliance</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Safety Certifications</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-header" style="background: var(--primary-blue); color: var(--text-white);">
+                            <h5 class="mb-0"><i class="fas fa-shield-alt me-2"></i>Safety Standards</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Worker Safety Protocols</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Emergency Response Plans</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Regular Safety Audits</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Incident Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-header" style="background: var(--primary-blue); color: var(--text-white);">
+                            <h5 class="mb-0"><i class="fas fa-leaf me-2"></i>Sustainability</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Green Building Practices</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Waste Reduction Programs</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Energy Efficiency</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Environmental Reporting</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Contact Bestcare Facilities Management Services</h2>
+            
+            <div class="quote-box">
+                <p class="mb-0">"Proactive electrical maintenance prevents 90% of potential system failures while ensuring compliance with Kenya's evolving electrical safety regulations."</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-header" style="background: var(--primary-blue); color: var(--text-white);">
+                            <h5 class="mb-0"><i class="fas fa-envelope me-2"></i>Get a Quote Today</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="name" class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="company" class="form-label">Company</label>
+                                        <input type="text" class="form-control" id="company">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="tel" class="form-control" id="phone" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="service" class="form-label">Service Required</label>
+                                    <select class="form-select" id="service" required>
+                                        <option value="">Select a service</option>
+                                        <option value="cleaning">Cleaning & Janitorial</option>
+                                        <option value="security">Security Services</option>
+                                        <option value="hvac">HVAC & Electrical</option>
+                                        <option value="landscaping">Landscaping & Grounds</option>
+                                        <option value="pest">Pest Control</option>
+                                        <option value="waste">Waste Management</option>
+                                        <option value="integrated">Integrated FM Solutions</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Additional Details</label>
+                                    <textarea class="form-control" id="message" rows="4"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg">Request Quote</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <h5><i class="fas fa-building me-2"></i>Head Office</h5>
+                        <p>Westlands, Nairobi<br>Kenya</p>
+                        
+                        <h5><i class="fas fa-phone me-2"></i>Phone</h5>
+                        <p><a href="tel:0722566999" class="text-white">0722566999</a></p>
+                        
+                        <h5><i class="fas fa-envelope me-2"></i>Email</h5>
+                        <p><a href="mailto:info@bestcareservices.co.ke" class="text-white">info@bestcareservices.co.ke</a></p>
+                        
+                        <h5><i class="fas fa-globe me-2"></i>Websites</h5>
+                        <p>
+                            <a href="https://bestcareservices.co.ke" class="text-white d-block">bestcareservices.co.ke</a>
+                            <a href="https://bestcare.co.ke" class="text-white d-block">bestcare.co.ke</a>
+                        </p>
+                        
+                        <div class="mt-4">
+                            <h6>Service Areas</h6>
+                            <p class="small">Operating in all 47 counties across Kenya with regional offices in major cities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5><i class="fas fa-building me-2"></i>Bestcare Facilities Management</h5>
+                    <p>Kenya's leading provider of comprehensive facility management solutions for residential, commercial, and industrial properties.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Services</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#services">Cleaning</a></li>
+                        <li><a href="#services">Security</a></li>
+                        <li><a href="#services">HVAC</a></li>
+                        <li><a href="#services">Landscaping</a></li>
+                        <li><a href="#services">Pest Control</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Coverage</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#coverage">Nairobi</a></li>
+                        <li><a href="#coverage">Mombasa</a></li>
+                        <li><a href="#coverage">Kisumu</a></li>
+                        <li><a href="#coverage">Nakuru</a></li>
+                        <li><a href="#coverage">All Counties</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Company</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Quick Contact</h6>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone me-2"></i><a href="tel:0722566999">0722566999</a></li>
+                        <li><i class="fas fa-envelope me-2"></i><a href="mailto:info@bestcareservices.co.ke">Email Us</a></li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i>Westlands, Nairobi</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Bestcare Facilities Management Services. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#">Privacy Policy</a> | 
+                    <a href="#">Terms of Service</a> | 
+                    <a href="#">Site Map</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="btn btn-primary position-fixed bottom-0 end-0 m-3 d-none" id="backToTop" style="z-index: 1000;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Back to top button functionality
+        const backToTopButton = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                backToTopButton.classList.remove('d-none');
+            } else {
+                backToTopButton.classList.add('d-none');
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Active navigation highlighting
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section[id]');
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Form submission handler
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your inquiry! We will contact you within 24 hours to discuss your facility management needs.');
+        });
+
+        // Add loading animation to service cards
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (
+            </div>
+            <a href="#services" class="btn btn-outline-light btn-lg mt-4">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Comprehensive Facility Management Services</h2>
+            
+            <div class="quote-box">
+                <p class="mb-0">"Professional facility management is not just about maintenance; it's about creating environments that enhance productivity, ensure safety, and maximize asset value for property owners and occupants alike."</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <div class="card-header">
+                            <i class="fas fa-broom me-2"></i>Cleaning & Janitorial
+                        </div>
+                        <div class="card-body">
+                            <p>Professional cleaning solutions for all facility types with international standard protocols.</p>
+                            <div class="price-badge">From KES 15,000/month</div>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Office cleaning</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Industrial cleaning</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Deep cleaning services</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <div class="card-header">
+                            <i class="fas fa-shield-alt me-2"></i>Security Services
+                        </div>
+                        <div class="card-body">
+                            <p>Comprehensive security solutions with trained personnel and modern surveillance technology.</p>
+                            <div class="price-badge">From KES 25,000/month</div>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Manned guarding</li>
+                                <li><i class="fas fa-check text-success me-2"></i>CCTV monitoring</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Access control</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <div class="card-header">
+                            <i class="fas fa-tools me-2"></i>HVAC & Electrical
+                        </div>
+                        <div class="card-body">
+                            <p>Expert maintenance of climate control and electrical systems by certified technicians.</p>
+                            <div class="price-badge">From KES 8,000/month</div>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Preventive maintenance</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Emergency repairs</li>
+                                <li><i class="fas fa-check text-success me-2"></i>System upgrades</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <div class="card-header">
+                            <i class="fas fa-seedling me-2"></i>Landscaping & Grounds
+                        </div>
+                        <div class="card-body">
+                            <p>Professional landscaping services combining horticultural expertise with sustainable practices.</p>
+                            <div class="price-badge">From KES 8,000/month</div>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Lawn care</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Garden design</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Irrigation systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <div class="card-header">
+                            <i class="fas fa-bug me-2"></i>Pest Control
+                        </div>
+                        <div class="card-body">
+                            <p>Integrated pest management strategies that minimize chemical usage while maximizing effectiveness.</p>
+                            <div class="price-badge">From KES 3,000/month</div>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>General pest control</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Termite treatment</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Fumigation services</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <div class="card-header">
+                            <i class="fas fa-recycle me-2"></i>Waste Management
+                        </div>
+                        <div class="card-body">
+                            <p>Comprehensive waste management with recycling programs and environmental compliance.</p>
+                            <div class="price-badge">From KES 8,000/month</div>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Regular collection</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Recycling programs</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Hazardous waste disposal</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Pricing Section -->
+    <section id="pricing" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Detailed Service Pricing</h2>
+            
+            <div class="quote-box">
+                <p class="mb-0">"Integrated facility management reduces operational costs by up to 25% while improving service quality through coordinated planning and execution of maintenance activities."</p>
+            </div>
+
+            <div class="accordion" id="pricingAccordion">
+                <!-- Cleaning Services Pricing -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cleaningPricing">
+                            <i class="fas fa-broom me-2"></i>Cleaning & Janitorial Services Pricing
+                        </button>
+                    </h2>
+                    <div id="cleaningPricing" class="accordion-collapse collapse show" data-bs-parent="#pricingAccordion">
+                        <div class="accordion-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Service Type</th>
+                                            <th>Facility Size</th>
+                                            <th>Monthly Cost (KES)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Office Cleaning</td><td>Small (< 500 sqm)</td><td>15,000 - 25,000</td></tr>
+                                        <tr><td>Office Cleaning</td><td>Medium (500-2000 sqm)</td><td>35,000 - 65,000</td></tr>
+                                        <tr><td>Office Cleaning</td><td>Large (> 2000 sqm)</td><td>75,000 - 150,000</td></tr>
+                                        <tr><td>Residential Cleaning</td><td>Apartment Complex</td><td>8,000 - 20,000</td></tr>
+                                        <tr><td>Industrial Cleaning</td><td>Warehouse/Factory</td><td>50,000 - 200,000</td></tr>
+                                        <tr><td>Deep Cleaning</td><td>One-time service</td><td>5,000 - 50,000</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security Services Pricing -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#securityPricing">
+                            <i class="fas fa-shield-alt me-2"></i>Security Services Pricing
+                        </button>
+                    </h2>
+                    <div id="securityPricing" class="accordion-collapse collapse" data-bs-parent="#pricingAccordion">
+                        <div class="accordion-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Security Service</th>
+                                            <th>Coverage Type</th>
+                                            <th>Monthly Cost (KES)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Manned Guarding</td><td>8-hour shifts</td><td>25,000 - 35,000</td></tr>
+                                        <tr><td>Manned Guarding</td><td>12-hour shifts</td><td>35,000 - 50,000</td></tr>
+                                        <tr><td>Manned Guarding</td><td>24-hour coverage</td><td>60,000 - 85,000</td></tr>
+                                        <tr><td>Mobile Patrol</td><td>Weekly rounds</td><td>10,000 - 15,000</td></tr>
+                                        <tr><td>CCTV Monitoring</td><td>Basic system</td><td>8,000 - 15,000</td></tr>
+                                        <tr><td>Access Control</td><td>Advanced systems</td><td>20,000 - 40,000</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
