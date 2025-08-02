@@ -17,26 +17,36 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Bestcare dark blue theme */
+    --primary: 220 91% 25%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 220 91% 30%;
+    --primary-light: 220 50% 85%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 220 91% 25%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 210 40% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 220 50% 85%;
+    --accent-foreground: 220 91% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 220 91% 25%;
 
-    --radius: 0.5rem;
+    /* Custom design tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(220 91% 25%), hsl(220 91% 35%));
+    --gradient-light: linear-gradient(135deg, hsl(220 50% 95%), hsl(220 50% 85%));
+    --shadow-elegant: 0 10px 30px -10px hsl(220 91% 25% / 0.3);
+    --shadow-soft: 0 4px 20px -4px hsl(220 91% 25% / 0.15);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
